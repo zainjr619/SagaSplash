@@ -3,6 +3,7 @@ import loadingReducer from "./loadingReducer";
 import imagesReducers from "./imagesReducers";
 import errorReducer from "./errorReducer";
 
+//console.log(loadingReducer);
 const rootReducer=combineReducers(
     {
         isLoading:loadingReducer,

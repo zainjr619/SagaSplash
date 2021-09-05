@@ -13,8 +13,8 @@ class App extends Component {
         < >
             <Provider store={store}>
                 <Fragment>
-                    <Header />
-                    <ImageGrid />
+                <Header />
+                <ImageGrid />
                 </Fragment>
             </Provider>
         </>
